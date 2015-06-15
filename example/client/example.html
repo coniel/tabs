@@ -29,32 +29,32 @@
 
   {{#basicTabs tabs=tabs}}
 
-    <div>
+    {{#tabContent slug="/people"}}
 
       <p>Here's some content for the <strong>People</strong> tab.</p>
       <p>Add text into the below input, click a different tab, and then come back to this one.</p>
       <p>You'll see how the tab state is sticky.</p>
       <input type="text" class="form-control" placeholder="Type some names of people.">
 
-    </div>
+    {{/tabContent}}
 
-    <div>
+    {{#tabContent slug="/people"}}
 
       <p>Here's some content for the <strong>Places</strong> tab.</p>
       <p>Add text into the below input, click a different tab, and then come back to this one.</p>
       <p>You'll see how the tab state is sticky.</p>
       <input type="text" class="form-control" placeholder="Type some names of places.">
 
-    </div>
+    {{/tabContent}}
 
-    <div>
+    {{#tabContent slug="/people"}}
 
       <p>Here's some content for the <strong>Things</strong> tab.</p>
       <p>Add text into the below input, click a different tab, and then come back to this one.</p>
       <p>You'll see how the tab state is sticky.</p>
       <input type="text" class="form-control" placeholder="Type some names of things.">
 
-    </div>
+    {{/tabContent}}
 
   {{/basicTabs}}
 
